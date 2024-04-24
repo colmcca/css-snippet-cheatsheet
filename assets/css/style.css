@@ -1,5 +1,8 @@
 body {
     background-color: grey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 header {
@@ -9,20 +12,39 @@ header {
     font-weight: bold;
 }
 
+#header-text {
+    color: white;
+}
+
 #container-1 {
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
+    padding-top: 40px;
+    flex-wrap: wrap;
 }
 
 #container-2 {
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
+    padding-top: 40px;
+    flex-wrap: wrap;
 }
 
 .card {
     border: dotted 2px white;
     height: 300px;
     width: 20%;
+    padding: 0px 10px 10px 10px;
+}
+
+#flexbox-row-title {
+    border: solid 2px white;
+    margin-top: -1px;
+}
+
+#flexbox-row-paragraph {
+    background-color: purple;
+    color: white;
+    margin-top: 25%;
+    padding: 5px;
 }
