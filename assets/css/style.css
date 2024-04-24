@@ -8,3 +8,21 @@ header {
     color: purple;
     font-weight: bold;
 }
+
+#container-1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+#container-2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.card {
+    border: dotted 2px white;
+    height: 300px;
+    width: 20%;
+}
