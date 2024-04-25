@@ -45,9 +45,41 @@
       </section>
 
       <section id="container-2">
-        <div class="card linear-gradients"></div>
-        <div class="card box-transition-glow"></div>
-        <div class="card overlay-card-with-title"></div>
+        <div class="card linear-gradients">
+          <h2 class="card-titles">Linear Gradients</h2>
+          <p class="descriptions">This will create a background linear gradient from top to bottom.</p>
+          <p class="code">.linear-gradient-background {<br>
+          background-image: linear-<br>
+        gradient(<br>
+      rgba(232, 102, 236, 0.3) 0%,<br>
+    rgba(232, 102, 236, 0.6) 100%<br>
+        );<br>
+          }</p>
+        </div>
+        <div class="card box-transition-glow">
+          <h2 class="card-titles">Box Transition Glow</h2>
+          <p class="descriptions">Use transition and box shadows to glow on hover</p>
+          <p class="code">.code-card .card-header {<br>
+          border-radius: 8px; <br>
+        transition: all 0.5s ease-in-<br>
+      out;<br>
+          }<br>
+        <br>
+      .code-card:hover,<br>
+    .code-card:hover .card-header {<br>
+    box-shadow: inset 0px 0px 8px <br>
+  rgba(232, 102, 236, 1), 0 0 15px<br>
+rgba(232, 102, 236, 1);<br>
+    }</p>
+        </div>
+        <div class="card overlay-card-with-title">
+          <h2 class="card-titles">Overlay Card with Title</h2>
+          <p class="descriptions">Use position properties and negative margins to raise elements higher than their natural starting point</p>
+          <p class="code">.card-header {<br>
+          position: relative;<br>
+        margin-top: -20px;<br>
+          }</p>
+        </div>
       </section>
 
     </body>
