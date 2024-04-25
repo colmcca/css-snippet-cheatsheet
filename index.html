@@ -16,15 +16,32 @@
 
       <section id="container-1">
         <div class="card flexbox-row">
-          <h2 id="flexbox-row-title">Flexbox-Row</h2>
-          <p id="flexbox-row-paragraph">.row { <br>
+          <h2 class="card-titles">Flexbox-Row</h2>
+          <p class="descriptions">Use these three properties to create a flexbox row layout.</p>
+          <p class="code">.row { <br>
           display: flex;<br>
         flex-direction: row;<br>
       flex-wrap: wrap;<br>
           }</p>
         </div>
-        <div class="card flexbox-column"></div>
-        <div class="card css-grid-layout"></div>
+        <div class="card flexbox-column">
+          <h2 class="card-titles">Flexbox Column</h2>
+          <p class="descriptions">Use this to create a Flexbox column layout.</p>
+          <p class="code">.column {<br>
+          display: flex;<br>
+        flex-direction: column;<br>
+          }</p>
+        </div>
+        <div class="card css-grid-layout">
+          <h2 class="card-titles">CSS Grid Layout</h2>
+          <p class="descriptions">Build a 12-column layout using CSS Grid.</p>
+          <p class="code">.grid {<br>
+          display: grid;<br>
+        width: 100%;<br>
+      grid-template-columns;<br>
+    repeat(12, 1fr);<br>
+          }</p>
+        </div>
       </section>
 
       <section id="container-2">

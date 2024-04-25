@@ -37,14 +37,20 @@ header {
     padding: 0px 10px 10px 10px;
 }
 
-#flexbox-row-title {
+.card-titles {
     border: solid 2px white;
     margin-top: -1px;
 }
 
-#flexbox-row-paragraph {
+.code {
     background-color: purple;
+    border-radius: 10px;
     color: white;
     margin-top: 25%;
     padding: 5px;
+}
+
+.descriptions {
+    text-align: center;
+    color: purple;
 }
