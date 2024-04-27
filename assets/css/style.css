@@ -2,12 +2,11 @@ body {
     background-color: grey;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     color: purple;
     font-weight: bold;
 }
@@ -16,17 +15,13 @@ header {
     color: white;
 }
 
-#container-1 {
+.container-1 {
     display: flex;
     justify-content: space-around;
     padding-top: 40px;
+    flex-wrap: wrap;
 }
 
-#container-2 {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
-}
 
 .card {
     border: dotted 2px white;
@@ -54,4 +49,22 @@ header {
     text-align: center;
     color: purple;
     font-size: medium;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 991px) {
+    .card {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px ) {
+    .card {
+        width: 90%;
+    }
 }
